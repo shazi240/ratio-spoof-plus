@@ -1,0 +1,17 @@
+{
+    "name": "µTorrent v3.6.0 (47224)",
+    "peerId": {
+        "regex": "-UT36[0-9]{2}-[A-Za-z0-9]{12}"
+    },
+    "key": {
+        "generator": "defaultKeyGenerator"
+    },
+    "rounding": {
+        "generator": "defaultRoundingGenerator"
+    },
+    "query": "info_hash={infohash}&peer_id={peerid}&port={port}&uploaded={uploaded}&downloaded={downloaded}&left={left}&corrupt=0&key={key}&event={event}&numwant={numwant}&compact=1&no_peer_id=1&supportcrypto=1&redundant=0",
+    "headers": {
+        "User-Agent": "uTorrent/47224",
+        "Accept-Encoding": "gzip"
+    }
+}
